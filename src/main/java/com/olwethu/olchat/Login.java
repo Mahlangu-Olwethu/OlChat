@@ -3,6 +3,10 @@ package com.olwethu.olchat;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Pattern;
+/**
+ * Regex patterns and validation logic developed with assistance from ChatGPT.
+ * APA citation: OpenAI. (2025). *ChatGPT* [o4-mini]. Retrieved from https://chat.openai.com
+ */
 
 public class Login {
     private final Map<String, User> users = new HashMap<>();
